@@ -14,6 +14,7 @@
     font-weight: 500;
     font-style: normal;
     opacity: 0.5;
+
 }
 
 .texto_logo_nav{
@@ -36,4 +37,20 @@
     background-color: black;
     text-align: center;
     color: white;
+    height: 100vh;
 }
+
+.titulo_contenido{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+}
+
+hr {
+    opacity: 0.5;
+    height: 2px;
+    background-color: white;
+  }

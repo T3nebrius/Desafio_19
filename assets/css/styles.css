@@ -58,8 +58,16 @@ hr {
 .boton_parrafo{
     width: 100%;
     height: 2.4rem;
-    background-color: lightblue;
+    background-color: lightskyblue;
     align-content: center;
     text-align: center;
 }
 
+.tarjeta{
+    background-color: lightskyblue;
+    height: 12.3rem;
+}
+
+.img_tarjeta{
+    height: 10rem;
+}

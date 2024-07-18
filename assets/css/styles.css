@@ -54,3 +54,12 @@ hr {
     height: 2px;
     background-color: white;
   }
+
+.boton_parrafo{
+    width: 100%;
+    height: 2.4rem;
+    background-color: lightblue;
+    align-content: center;
+    text-align: center;
+}
+

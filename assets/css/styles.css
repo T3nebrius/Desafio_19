@@ -7,6 +7,12 @@
     font-style: normal;
 }
 
+.logo_img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
 .texto_nav{
     color: white;
     font-family: "Raleway", sans-serif;
@@ -14,6 +20,7 @@
     font-weight: 500;
     font-style: normal;
     opacity: 0.5;
+
 }
 
 .texto_logo_nav{
@@ -36,4 +43,97 @@
     background-color: black;
     text-align: center;
     color: white;
+    height: 100vh;
 }
+
+.contacto{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 92vh;
+}
+
+.titulo_contenido{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+}
+
+hr {
+    opacity: 0.5;
+    height: 2px;
+    background-color: white;
+}
+
+label{
+    text-align: left;
+    width: 100%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.8rem;
+}
+
+input{
+    width: 100%;
+    border-radius: 6px;
+}
+
+textarea{
+    width: 100%;
+    height: 10rem;
+    border-radius: 6px;
+}
+
+button{
+    margin-top: 1rem;
+    border-radius: 6px;
+    background-color: lightskyblue;
+    color: white;
+    align-self: flex-start;
+    height: 2.6rem;
+    width: 4.6rem;
+}
+
+.boton_parrafo{
+    width: 100%;
+    height: 2.4rem;
+    background-color: lightskyblue;
+    align-content: center;
+    text-align: center;
+}
+
+.tarjeta{
+    background-color: lightskyblue;
+    height: 12.3rem;
+}
+
+.img_tarjeta{
+    height: 10rem;
+}
+
+.form_contacto{
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.footer{
+    width: 100%;
+    background-color: lightskyblue;
+    height: 5rem;
+}
+
+.footer .conteiner .row .col-md-8 .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.footer .conteiner .row .col-md-8 .d-flex h3 div{
+    margin: 0;
+    display: flex;
+    gap: 10px;
+}
+

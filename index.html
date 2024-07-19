@@ -8,13 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/59dc0110cb.js" crossorigin="anonymous"></script>
     <script src="assets/js/logic.js" ></script>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
             <div class="container-fluid ms-5">
+              <img src="assets/img/viajes.svg" class="logo_img">
               <span class="texto_nav texto_logo_nav">Viajes Chile</span>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -61,16 +64,165 @@
             </button>
           </div>
     </section>
-    <section name="quienes" id="quienes">
-        <h3 class="contenido">¿QUIENES SOMOS?</h3>
-    </section>
-    <section name="destacados" id="destacados">
+    <section name="quienes" id="quienes" class="contenido">
+      <div class="container contenido">
+        <div class="row">
+            <div class="col-md-12 mb-4">
+              <h3 class="mt-5">¿QUIENES SOMOS?</h3> 
+              <br>
+              <hr> 
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="p-4 bg-black text-white text-start">
+                    <div class="boton_parrafo"><i class="fa-solid fa-plane fa-2x"></i></i></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                      Fusce consequat feugiat mattis. Aenean at semper orci, vel
+                       consequat leo. In ac orci nec orci dapibus finibus sit 
+                       amet ut enim. Mauris ac augue in tellus lacinia cursus. 
+                       Praesent a faucibus odio. Donec erat eros, euismod semper 
+                       sapien vitae, accumsan volutpat nisi. Vivamus pharetra 
+                       sem nisi, nec egestas tortor dictum eget. Nam ut eleifend 
+                       ante, sed dignissim risus. Mauris venenatis finibus eleifend. 
+                       Integer mattis, lacus ut feugiat fringilla, neque tortor 
+                       viverra ipsum, in bibendum diam orci ut mi. Orci varius 
+                       natoque penatibus et magnis dis parturient montes, nascetur 
+                       ridiculus mus. Vestibulum porta magna arcu, eu maximus eros 
+                       sollicitudin aliquam. Curabitur eget posuere magna.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="p-4 bg-black text-white text-start">
+                    <p>Fusce in felis feugiat, consectetur ante ut, tristique quam. 
+                      Duis viverra consequat quam, at bibendum felis finibus sed. 
+                      Pellentesque ac nibh faucibus, vehicula dui eu, euismod leo. 
+                      Donec ac dolor elit. Cras nisl nulla, fringilla vitae odio non, 
+                      ultrices porttitor quam. Fusce sit amet magna id est faucibus 
+                      eleifend. Nulla aliquam malesuada hendrerit. Nullam imperdiet 
+                      fermentum libero, vitae vehicula dui. In cursus tellus sit 
+                      amet nulla lacinia, eget vehicula metus egestas. Cras commodo 
+                      libero quis nunc ultricies, ut facilisis nulla malesuada. 
+                      Morbi lacus eros, pretium sed lacus sit amet, ultrices pharetra 
+                      turpis. Maecenas vel nulla ex.</p>
+                      <div class="boton_parrafo"><i class="fa-solid fa-mountain fa-2x"></i></div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="p-4 bg-black text-white text-start">
+                    <div class="boton_parrafo"><i class="fa-solid fa-route fa-2x"></i></div>
+                    <p>Phasellus ullamcorper orci et neque faucibus, hendrerit 
+                      molestie erat ultrices. Duis lacinia ultricies nisi, a molestie 
+                      sapien convallis ut. Maecenas congue, nisi quis molestie pulvinar, 
+                      nunc risus scelerisque leo, at bibendum sem ipsum non dolor. 
+                      Integer fermentum, nunc quis eleifend lobortis, metus lorem 
+                      dignissim tellus, sit amet aliquet tortor magna eu tortor. 
+                      Proin augue turpis, iaculis sit amet tristique eu, rutrum vitae 
+                      turpis. In ut porta lorem, et consectetur turpis. Sed ac enim 
+                      vitae orci suscipit sagittis sit amet et ipsum. Maecenas magna 
+                      ex, aliquam sed nisl sed, volutpat accumsan mauris. Proin at 
+                      aliquet est. Vivamus id lorem in nibh rhoncus porttitor. Sed 
+                      eu auctor tellus.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     </section>
-    <section name="contacto" id="contacto">
-
+    <section name="destacados" id="destacados" class="contenido">
+      <div class="container contenido">
+        <div class="row">
+            <div class="col-md-12 mb-4">
+              <h3 class="mt-5">DESTACADOS</h3> 
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="p-4 bg-black text-white text-start">
+                  <div class="card" style="width: 18rem;">
+                    <img src="assets/img/card1.jpg" class="card-img-top img_tarjeta" alt="...">
+                    <div class="card-body tarjeta">
+                      <h4>Lorem ipsum, dolor sit amet</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="p-4 bg-black text-white text-start">
+                  <div class="card" style="width: 18rem;">
+                    <img src="assets/img/card2.jpg" class="card-img-top img_tarjeta" alt="...">
+                    <div class="card-body tarjeta">
+                      <h4>Consectetur adipisicing elit</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="p-4 bg-black text-white text-start">
+                  <div class="card" style="width: 18rem;">
+                    <img src="assets/img/card3.jpg" class="card-img-top img_tarjeta" alt="...">
+                    <div class="card-body tarjeta">
+                      <h4>Sed do eiusmod tempor indicididunt ut labore</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="p-4 bg-black text-white text-start">
+                <div class="card" style="width: 18rem;">
+                  <img src="assets/img/card4.jpg" class="card-img-top img_tarjeta" alt="...">
+                  <div class="card-body tarjeta">
+                    <h4>Ut enim ad minim veniam</h4>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
     </section>
-
+    <section name="contacto" id="contacto" class="contacto">
+      <div class="container contenido">
+        <div class="row">
+          <h3 class="mt-5">CONTACTO</h3>
+            <div class="col-md-12 mb-4 form_contacto">
+               
+              <hr>
+              <form>
+              <label>Nombre</label>
+              <input type="text">
+              <label>Asunto</label>
+              <input type="text>">
+              <label>Mensaje</label>
+              <textarea class="form-control" id="comentarios" rows="10"></textarea>
+              <br>
+              <button>Enviar</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer class="footer">
+      <div class="footer">
+        <div class="conteiner boton_parrafo">
+          <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6 text-white">
+              <div class="d-flex justify-content-between align-items-center mt-4">
+                <h3>VIAJES CHILE</h3>
+                <div>
+                  <i class="fa-brands fa-github fa-2x"></i>
+                  <i class="fa-brands fa-linkedin fa-2x"></i>
+                  <i class="fa-brands fa-square-twitter fa-2x"></i>
+                  <i class="fa-brands fa-square-facebook fa-2x"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 </body>
 </html>

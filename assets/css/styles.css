@@ -7,6 +7,12 @@
     font-style: normal;
 }
 
+.logo_img{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
 .texto_nav{
     color: white;
     font-family: "Raleway", sans-serif;
@@ -117,5 +123,20 @@ button{
     width: 100%;
     background-color: lightskyblue;
     height: 5rem;
+}
+
+.footer .conteiner .row .col-md-8 .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.footer .conteiner .row .col-md-8 .d-flex h3 {
+    margin: 0;
+}
+  
+.footer .conteiner .row .col-md-8 .d-flex div {
+    display: flex;
+    gap: 10px; 
 }
 

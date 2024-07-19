@@ -131,12 +131,9 @@ button{
     align-items: center;
 }
   
-.footer .conteiner .row .col-md-8 .d-flex h3 {
+.footer .conteiner .row .col-md-8 .d-flex h3 div{
     margin: 0;
-}
-  
-.footer .conteiner .row .col-md-8 .d-flex div {
     display: flex;
-    gap: 10px; 
+    gap: 10px;
 }
 
